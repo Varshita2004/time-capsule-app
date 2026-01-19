@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Create Time Capsule</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="navbar">
+  <div>
+    <a href="create.html">🕰️ Time Capsule</a>
+    <a href="capsules.html">My Capsules</a>
+  </div>
+  <button onclick="logout()">Logout</button>
+</div>
+
+
+  <h2>Create Your Time Capsule</h2>
+
+  <form id="capsuleForm">
+
+  <textarea id="message" rows="6"
+    placeholder="Write a message to your future self..." required>
+  </textarea>
+  <br><br>
+
+  <label>Unlock Date:</label><br>
+  <input type="date" id="unlockDate" required>
+  <br><br>
+
+  <button type="submit">Save Capsule</button>
+</form>
+
+<p id="preview"></p>
+
+<script src="script.js"></script>
+
+
+  <p>
+    <a href="index.html">← Back to Home</a>
+  </p>
+  <br>
+<a href="capsules.html">📂 View My Capsules</a>
+
+
+</body>
+</html>

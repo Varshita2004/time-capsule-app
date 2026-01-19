@@ -1,0 +1,152 @@
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f6f8;
+  color: #333;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+
+
+/* ===============================
+   NAVBAR
+=============================== */
+.navbar {
+  background-color: #4a90e2;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.navbar a {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar button {
+  background-color: white;
+  color: #4a90e2;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  text-align: center;
+  margin-top: 80px;
+}
+
+form {
+  background: white;
+  padding: 20px;
+  width: 300px;
+  margin: auto;
+  border-radius: 8px;
+}
+
+input {
+  width: 90%;
+  padding: 8px;
+}
+
+textarea {
+  width: 90%;
+  padding: 8px;
+  resize: none;
+}
+
+
+button {
+  padding: 10px 20px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #4a90e2;
+}
+/* ===============================
+   CAPSULE CARD
+=============================== */
+.capsule-card {
+  background: white;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease;
+}
+
+.capsule-card:hover {
+  transform: translateY(-3px);
+}
+
+.capsule-status {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.unlocked {
+  color: #2e7d32;
+}
+
+.locked {
+  color: #c62828;
+}
+
+form {
+  background: white;
+  padding: 30px;
+  width: 360px;
+  margin: 40px auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: #4a90e2;
+}
+
+
+button {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #357abd;
+}
+
+
