@@ -11,9 +11,7 @@ const express = require("express");
 const app = express();
 
 
-mongoose.connect(
-  "mongodb+srv://timecapsuleuser:varshita@timecapsulecluster.xqj6u6v.mongodb.net/timecapsuleDB"
-)
+mongoose.connect(process.env.MONGO_URI)
 .then(() => console.log("MongoDB connected"))
 .catch(err => console.log(err));
 
