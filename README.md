@@ -56,8 +56,7 @@ time-capsule-app/
 │ └── package.json
 │
 └── README.md
-
----
+```
 
 ##⚙️ How It Works
 
@@ -70,28 +69,28 @@ time-capsule-app/
 ---
 ## ▶️ How to Run Locally
 
-###1.Clone the repository
-```bash
+##1.Clone the repository
+```
 git clone https://github.com/YOUR_USERNAME/time-capsule-app.git
-
-###2. Navigate to server folder
-```bash
+```
+##2. Navigate to server folder
+```
 cd time-capsule-app/server
-
-###3. Install dependencies
-```bash
+```
+##3. Install dependencies
+```
 npm install
-
-###4. Create a .env file
-```bash
+```
+##4. Create a .env file
+```
 MONGO_URI=your_mongodb_connection_string
-
-###5. Start the server
-```bash
+```
+##5. Start the server
+```
 node index.js
-
-###6. Open the frontend
-```bash
+```
+##6. Open the frontend
+```
 Open client/login.html in your browser.
-
+```
 Developed by chintanippu varshita
