@@ -37,6 +37,7 @@ A full-stack web application that allows users to write messages to their future
 ---
 
 ## 📂 Project Structure
+```
 time-capsule-app/
 │
 ├── client/
@@ -55,7 +56,6 @@ time-capsule-app/
 │ └── package.json
 │
 └── README.md
-
 
 ---
 
