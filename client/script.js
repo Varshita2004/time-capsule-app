@@ -10,7 +10,7 @@ if (registerForm) {
     const email = document.getElementById("email").value;
     const password = document.getElementById("password").value;
 
-    fetch("http://localhost:3000/register", {
+    fetch("https://time-capsule-app-i50s.onrender.com/register", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ email, password })
@@ -41,7 +41,7 @@ if (loginForm) {
     const email = document.getElementById("email").value;
     const password = document.getElementById("password").value;
 
-    fetch("http://localhost:3000/login", {
+    fetch("https://time-capsule-app-i50s.onrender.com/login", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ email, password })
@@ -76,7 +76,7 @@ if (form) {
       return;
     }
 
-    fetch("http://localhost:3000/capsule", {
+    fetch("https://time-capsule-app-i50s.onrender.com/capsule", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ message, unlockDate, email })
@@ -106,7 +106,7 @@ if (capsuleList) {
     window.location.href = "login.html";
   }
 
-  fetch(`http://localhost:3000/capsules/${email}`)
+  fetch(`https://time-capsule-app-i50s.onrender.com/capsules/${email}`)
     .then(res => res.json())
     .then(capsules => {
       if (capsules.length === 0) {
